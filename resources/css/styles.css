@@ -171,3 +171,7 @@ nav a:hover {
 
 /* Footer */
 
+footer {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 2rem;
+}
