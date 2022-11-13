@@ -92,6 +92,7 @@ nav a:hover {
 .books h1 {
     text-align: center;
     font-size: xx-large;
+    text-decoration: underline;
 }
 
 .grid-container {
@@ -115,6 +116,7 @@ nav a:hover {
 .book img {
     width: auto;
     height: 90%;
+    border-radius: 0.25rem;
 }
 
 .a{
@@ -140,6 +142,7 @@ nav a:hover {
     padding: 3rem 0;
     text-align: center;
     font-size: xx-large;
+    text-decoration: underline;
 }
 
 .staff-member {
@@ -162,6 +165,7 @@ nav a:hover {
 .staff-member img {
     width: 90%;
     height: auto;
+    border-radius: 0.25rem;
 }
 
 /* Footer */
@@ -169,6 +173,7 @@ nav a:hover {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.5);
     padding: 2rem;
