@@ -49,6 +49,16 @@ nav a:hover {
     background-color: rgba(25, 180, 172, 0.25);
 }
 
+@media only screen and (max-width: 1000px) {
+    header {
+        justify-content: center;
+    }
+    
+    nav {
+        display: none;
+    }
+}
+
 /* Splash */
 .splash {
     display: grid;
@@ -73,6 +83,17 @@ nav a:hover {
     border-radius: 1rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    .splash {
+        display: flex;
+        justify-content: center;
+    }
+
+    .welcome {
+        Width: 80%;
+    }
+}
+
 /* Mission */
 .mission {
     display: flex;
@@ -84,6 +105,12 @@ nav a:hover {
     height: 16rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    .mission p {
+        width: 90%;
+    }
+}
+
 /* Books */
 .books {
     padding: 3rem;
@@ -93,6 +120,7 @@ nav a:hover {
     text-align: center;
     font-size: xx-large;
     text-decoration: underline;
+    padding: 1rem;
 }
 
 .grid-container {
@@ -113,6 +141,11 @@ nav a:hover {
     border-radius: 1rem;
 }
 
+.book h3, 
+.book h5 {
+    padding-bottom: 1rem;
+}
+
 .book img {
     width: auto;
     height: 90%;
@@ -129,6 +162,34 @@ nav a:hover {
 
 .c{
     grid-area: 2 / 8 / span 9 / span 2;
+}
+
+@media only screen and (max-width: 1280px) {
+    .grid-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .book {
+        padding: 4vh;
+        width: 90%;
+    }
+
+    .book img{
+        width: auto;
+        height: 70vh;
+        border: 1vh;
+    }
 }
 
 /* Staff */
@@ -166,6 +227,15 @@ nav a:hover {
     width: 90%;
     height: auto;
     border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .staff-member {
+        width: 90%;
+    }
 }
 
 /* Footer */
